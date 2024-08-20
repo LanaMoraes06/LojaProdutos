@@ -5,14 +5,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="br.com.etec.model.SampleController">
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Operacoes">
    <children>
       <AnchorPane layoutX="256.0" layoutY="194.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-image: url(https://media.istockphoto.com/id/1154566604/pt/foto/blue-watercolor-background-texture-in-light-color.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=Z2c1HyCD8vu2ia_4ZZFKGahw-_I-_BWWqTkDfobzvgw=);" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
          <children>
-            <TextField layoutX="289.0" layoutY="111.0" prefHeight="42.0" prefWidth="680.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
-            <PasswordField layoutX="146.0" layoutY="110.0" prefHeight="42.0" prefWidth="380.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="100.0" />
-            <Button layoutX="103.0" layoutY="168.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="235.0" text="Log-in" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="102.0" AnchorPane.topAnchor="168.0" />
+            <TextField fx:id="txfUsuario" layoutX="289.0" layoutY="111.0" prefHeight="42.0" prefWidth="680.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+            <PasswordField fx:id="psfUsuario" layoutX="146.0" layoutY="110.0" prefHeight="42.0" prefWidth="380.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="100.0" />
+            <Button fx:id="btnAcessar" layoutX="103.0" layoutY="168.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Log-in" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="102.0" AnchorPane.topAnchor="168.0" />
          </children>
       </AnchorPane>
    </children>
